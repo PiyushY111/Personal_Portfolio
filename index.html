@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Days+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <link rel="stylesheet" href="style.css">
+    <title>Piyush - Portfolio</title>
+</head>
+
+<body>
+
+    <div id="preloader">
+        <div class="first-preloader">
+            Loading...
+        </div>
+        <div class="second-preloader">
+            <p class="good">Welcome to my portfolio website</p>
+        </div>
+    </div>
+
+
+    <header class="main-header">
+    
+        <div class="side-nav">
+            <input type="checkbox" id="btn" hidden>
+            <label for="btn" class="menu-btn">
+                <i class="fas fa-bars"></i>
+                <i class="fas fa-times"></i>
+            </label>
+            <nav id="sidebar">
+                <div class="title">
+                    Menu
+                </div>
+                <ul class="list-items">
+                    <li><a href="#home " class="sid-navbar-link active"><i class="fas fa-home"></i>Home</a></li>
+                    <li><a href="#about" class="sid-navbar-link"><i class="fas fa-user"></i>About us</a></li>
+                    <li><a href="#skills" class="sid-navbar-link"><i class="fas fa-stream"></i>Skills</a></li>
+                    <li><a href="#education" class="sid-navbar-link"><i class="fas fa-building-columns"></i>Education</a></li>
+                    <li><a href="#project" class="sid-navbar-link"><i class="fas fa-list-check"></i>Project</a></li>
+                    <li><a href="#contact" class="sid-navbar-link"><i class="fas fa-envelope"></i>Contact us</a></li>
+                    
+                    <div class="icons">
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-github"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </ul>
+            </nav>
+        </div>
+
+        <nav class="navbar">
+            <div class="logo">
+                <h1>Piyush</h1>
+            </div>
+            <div class="main-nav borderYtoX">
+                <ul class="navbar-list">
+                    <li class="navbar-item">
+                        <a class="navbar-link active" href="#home">Home</a>
+                    </li>
+                    <li class="navbar-item">
+                        <a class="navbar-link" href="#about">About</a>
+                    </li>
+                    <li class="navbar-item">
+                        <a class="navbar-link" href="#skills">Skills</a>
+                    </li>
+                    <li class="navbar-item">
+                        <a class="navbar-link" href="#education">Education</a>
+                    </li>
+                    <li class="navbar-item">
+                        <a class="navbar-link" href="#project">Project</a>
+                    </li>
+                    <li class="navbar-item">
+                        <a class="navbar-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <article class="first" id="home">
+
+            <section class="intro">
+                <p>Hello, It's Me</p>
+                <h1>Piyush</h1>
+                <div>I'm a student who is passionate in <span id="element"></span></div>
+
+                <section class="social">
+                    <ul class="social-icons">
+                        <li><a class="linkedin" aria-label="LinkedIn" href="https://www.linkedin.com/in/piyush-b1bb15317?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                                target="_blank"><i class="fab fa-linkedin "></i></a></li>
+                        <li><a class="github" aria-label="GitHub" href="https://github.com/PiyushY111"
+                                target="_blank"><i class="fab fa-github"></i></a></li>
+                    </ul>
+                </section>
+
+            </section>
+
+            <section class="my-pic">
+                <img src="Images/Piyush's Photo.jpg" draggable="false" (dragstart)="false;"
+                    alt="Piyush's Photo">
+            </section>
+        </article>
+
+
+        <article class="second" id="about">
+            <section>
+                <h2 class="section-title-01">About Me</h2>
+                <h2 class="second-title">About<span> Me</span></h2>
+            </section>
+            <section class="about-text">
+                <p>
+                    I'm on a journey to enhance my skills and strive for excellence.
+                    I bring a dynamic and energetic approach to my work, fueled by a deep
+                    motivation to tackle challenging issues.
+                    I see challenges as opportunities for growth and embrace each task with
+                    enthusiasm. Learning is a continuous process for me, and I'm always ready
+                    to adapt to new situations.
+                </p>
+                <p>
+                    With a forward-thinking mindset and a proactive approach,
+                    I am eager to take on new challenges and make impactful contributions.
+                    I thrive in environments that encourage innovation and creativity, and
+                    I am committed to delivering exceptional results with every project
+                    I undertake.
+                </p>
+                <p>
+                    Thank you for considering my profile. I'm eager for the chance to contribute
+                    and excel in any endeavor.
+                </p>
+                <p class="place"><b>PLACE :</b> Rewari ,Haryana</p>
+                <p class="email"><b>Email :</b> piyushydv914@gmail.com</p>
+            </section>
+
+        </article>
+
+
+        <article class="third" id="skills">
+            <section>
+                <h2 class="third-title-01">My Skills</h2>
+                <h2 class="third-title"><span>My</span> Skills</h2>
+            </section>
+            <section class="skill">
+                <ul class="skills-list">
+                    <li class="skills-item">
+                        <div class="title-wrapper">
+                            <h5 class="skill-title">HTML</h5>
+                            <data value="100">100%</data>
+                        </div>
+                        <div class="skill-progress-bg">
+                            <div class="skill-progress-fill" style="width: 100%;"></div>
+                        </div>
+                    </li>
+                    <li class="skills-item">
+                        <div class="title-wrapper">
+                            <h5 class="skill-title">CSS</h5>
+                            <data value="90">90%</data>
+                        </div>
+                        <div class="skill-progress-bg">
+                            <div class="skill-progress-fill" style="width: 90%;"></div>
+                        </div>
+                    </li>
+                    <li class="skills-item">
+                        <div class="title-wrapper">
+                            <h5 class="skill-title">Javascript</h5>
+                            <data value="60">60%</data>
+                        </div>
+                        <div class="skill-progress-bg">
+                            <div class="skill-progress-fill" style="width: 60%;"></div>
+                        </div>
+                    </li>
+                    <li class="skills-item">
+                        <div class="title-wrapper">
+                            <h5 class="skill-title">React</h5>
+                            <data value="20">30%</data>
+                        </div>
+                        <div class="skill-progress-bg">
+                            <div class="skill-progress-fill" style="width: 30%;"></div>
+                        </div>
+                    </li>
+                    <li class="skills-item">
+                        <div class="title-wrapper">
+                            <h5 class="skill-title">Python</h5>
+                            <data value="60">60%</data>
+                        </div>
+                        <div class="skill-progress-bg">
+                            <div class="skill-progress-fill" style="width: 70%;"></div>
+                        </div>
+                    </li>
+                    <li class="skills-item">
+                        <div class="title-wrapper">
+                            <h5 class="skill-title">Leadership</h5>
+                            <data value="90">90%</data>
+                        </div>
+                        <div class="skill-progress-bg">
+                            <div class="skill-progress-fill" style="width: 90%;"></div>
+                        </div>
+                    </li>
+                </ul>
+            </section>
+        </article>
+
+        <article class="fourth" id="education">
+            <section class="education">
+                <h2 class="fourth-title-01">My Education</h2>
+                <h2 class="fourth-title">My <span> Education</span></h2>
+                <div class="box-container">
+                    <div class="box">
+                        <div class="image">
+                            <img draggable="false" src="Images/College.jpg" alt="Newton School of Technology">
+                        </div>
+                        <div class="edu-content">
+                            <h3>B.Tech in Computer Science and Engineering</h3>
+                            <p>Specialization: Artificial Intelligence </p>
+                            <p>Newton school of Technology , Sonipat campus</p>
+                            <h4>2024-2028 | Pursuing</h4>
+
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </article>
+
+        <article class="fifth" id="project">
+            <section>
+                <h2 class="fifth-title-01 ">Project Made</h2>
+                <h3 class="fifth-title"><span>PROJECT</span> Made</h3>
+            </section>
+            <section class="project-card">
+                <a href="https://github.com/PiyushY111/E-commerce" target="_blank" class="card">
+                    <div class="image-box">
+                        <img src="Images/E-commerce.jpg" alt="project">
+                    </div>
+                    <div class="before-content">
+                        <h3>E-Commerce </h3>
+                    </div>
+                    <div class="content">
+                        <h3>E-Commerce</h3>
+                        <p>I built a responsive e-commerce website using HTML, CSS, and JavaScript
+                             for the frontend. It includes dynamic product displays, interactive 
+                             UI elements, and a sleek design for an engaging shopping experience.</p>
+                    </div>
+                </a>
+
+                <a href="https://github.com/PiyushY111/Youtube_Clone" target="_blank" class="card">
+                    <div class="image-box">
+                        <img src="Images/Youtube-clone.png" alt="project">
+                    </div>
+                    <div class="before-content">
+                        <h3>Youtube-clone</h3>
+                    </div>
+                    <div class="content">
+                        <h3>Youtube-clone</h3>
+                        <p>Built a YouTube clone using HTML and CSS, featuring a responsive video grid, 
+                            navbar, sidebar, and a clean, user-friendly layout for an immersive viewing experience.</p>
+                    </div>
+                </a>
+
+                <a href="https://github.com/PiyushY111/Tic-Tac-Toe" target="_blank" class="card">
+                    <div class="image-box">
+                        <img src="Images/TicTacToe.png" alt="project">
+                    </div>
+                    <div class="before-content">
+                        <h3>Tic Tac Toe</h3>
+                    </div>
+                    <div class="content">
+                        <h3>Tic Tac Toe</h3>
+                        <p>Developed a Tic Tac Toe game using HTML, CSS, and
+                             JavaScript, featuring a responsive 3x3 grid, 
+                             turn-based gameplay, automatic win detection, and a 
+                             restart option for seamless user interaction.</p>
+                    </div>
+                </a>
+
+                <a href="https://github.com/PiyushY111/Calculator" target="_blank" class="card">
+                    <div class="image-box">
+                        <img src="Images/Calculator.png" alt="project">
+                    </div>
+                    <div class="before-content">
+                        <h3>Calculator</h3>
+                    </div>
+                    <div class="content">
+                        <h3>Calculator</h3>
+                        <p>Developed a basic calculator using React, featuring a clean UI, 
+                            responsive design, and essential arithmetic operations for a smooth user experience.</p>
+                    </div>
+                </a>
+
+                <a href="https://github.com/PiyushY111/ToDoList" target="_blank" class="card">
+                    <div class="image-box">
+                        <img src="Images/ToDoList.png" alt="project">
+                    </div>
+                    <div class="before-content">
+                        <h3>To Do List</h3>
+                    </div>
+                    <div class="content">
+                        <h3>To Do List</h3>
+                        <p>Built a to-do list app using React, allowing users to add, remove, 
+                            and mark tasks as complete with a simple and responsive UI.</p>
+                    </div>
+                </a>
+            </section>
+        </article>
+
+
+                
+
+                <article class="seventh" id="contact">
+                    <section>
+                        <h2 class="fifth-title-01 ">Contact Me</h2>
+                        <h2 class="seventh-title"><span>Contact</span> Me</h2>
+                    </section>
+                    <section>
+                        <div class="contact">
+                            <form class="form" action="#" netlify>
+        
+                                <div class="input-wrapper">
+                                    <input type="text" name="fullname" class="form-input" placeholder="Full name" required>
+        
+                                    <input type="email" name="email" class="form-input" placeholder="Email address" required>
+                                </div>
+        
+                                <textarea name="message" class="form-input" placeholder="Your Message" required></textarea>
+        
+                                <button class="form-btn" type="submit">
+                                    Send Message
+                                </button>
+        
+                            </form>
+                        </div>
+                    </section>
+    </main>
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script src="https://kit.fontawesome.com/c6fb6cedc5.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
