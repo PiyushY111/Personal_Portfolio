@@ -1,344 +1,601 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Days+One&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Days+One&family=Doto:wght@100..900&family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&family=Sora:wght@100..800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
     <title>Piyush - Portfolio</title>
-</head>
+  </head>
 
-<body>
-
+  <body>
     <div id="preloader">
-        <div class="first-preloader">
-            Loading...
-        </div>
-        <div class="second-preloader">
-            <p class="good">Welcome to my portfolio website</p>
-        </div>
+      <div class="first-preloader">Loading...</div>
+      <div class="second-preloader">
+        <p class="good">Welcome to my portfolio website</p>
+      </div>
     </div>
 
-
     <header class="main-header">
-    
-        <div class="side-nav">
-            <input type="checkbox" id="btn" hidden>
-            <label for="btn" class="menu-btn">
-                <i class="fas fa-bars"></i>
-                <i class="fas fa-times"></i>
-            </label>
-            <nav id="sidebar">
-                <div class="title">
-                    Menu
-                </div>
-                <ul class="list-items">
-                    <li><a href="#home " class="sid-navbar-link active"><i class="fas fa-home"></i>Home</a></li>
-                    <li><a href="#about" class="sid-navbar-link"><i class="fas fa-user"></i>About us</a></li>
-                    <li><a href="#skills" class="sid-navbar-link"><i class="fas fa-stream"></i>Skills</a></li>
-                    <li><a href="#education" class="sid-navbar-link"><i class="fas fa-building-columns"></i>Education</a></li>
-                    <li><a href="#project" class="sid-navbar-link"><i class="fas fa-list-check"></i>Project</a></li>
-                    <li><a href="#contact" class="sid-navbar-link"><i class="fas fa-envelope"></i>Contact us</a></li>
-                    
-                    <div class="icons">
-                        <a href="#"><i class="fab fa-linkedin"></i></a>
-                        <a href="#"><i class="fab fa-github"></i></a>
-                        <a href="#"><i class="fab fa-instagram"></i></a>
-                    </div>
-                </ul>
-            </nav>
-        </div>
+      <div class="side-nav">
+        <input type="checkbox" id="btn" hidden />
+        <label for="btn" class="menu-btn">
+          <i class="fas fa-bars"></i>
+          <i class="fas fa-times"></i>
+        </label>
+        <nav id="sidebar">
+          <div class="title">Menu</div>
+          <ul class="list-items">
+            <li>
+              <a href="#home " class="sid-navbar-link active"
+                ><i class="fas fa-home"></i>Home</a
+              >
+            </li>
+            <li>
+              <a href="#about" class="sid-navbar-link"
+                ><i class="fas fa-user"></i>About us</a
+              >
+            </li>
+            <li>
+              <a href="#skills" class="sid-navbar-link"
+                ><i class="fas fa-stream"></i>Skills</a
+              >
+            </li>
+            <li>
+              <a href="#education" class="sid-navbar-link"
+                ><i class="fas fa-building-columns"></i>Education</a
+              >
+            </li>
+            <li>
+              <a href="#project" class="sid-navbar-link"
+                ><i class="fas fa-list-check"></i>Project</a
+              >
+            </li>
+            <li>
+              <a href="#contact" class="sid-navbar-link"
+                ><i class="fas fa-envelope"></i>Contact us</a
+              >
+            </li>
 
-        <nav class="navbar">
-            <div class="logo">
-                <h1>Piyush</h1>
+            <div class="icons">
+              <a href="#"><i class="fab fa-linkedin"></i></a>
+              <a href="#"><i class="fab fa-github"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
             </div>
-            <div class="main-nav borderYtoX">
-                <ul class="navbar-list">
-                    <li class="navbar-item">
-                        <a class="navbar-link active" href="#home">Home</a>
-                    </li>
-                    <li class="navbar-item">
-                        <a class="navbar-link" href="#about">About</a>
-                    </li>
-                    <li class="navbar-item">
-                        <a class="navbar-link" href="#skills">Skills</a>
-                    </li>
-                    <li class="navbar-item">
-                        <a class="navbar-link" href="#education">Education</a>
-                    </li>
-                    <li class="navbar-item">
-                        <a class="navbar-link" href="#project">Project</a>
-                    </li>
-                    <li class="navbar-item">
-                        <a class="navbar-link" href="#contact">Contact</a>
-                    </li>
-                </ul>
-            </div>
+          </ul>
         </nav>
+      </div>
+
+      <nav class="navbar">
+        <div class="logo">
+          <h1>Piyush</h1>
+        </div>
+        <div class="main-nav borderYtoX">
+          <ul class="navbar-list">
+            <li class="navbar-item">
+              <a class="navbar-link active" href="#home">Home</a>
+            </li>
+            <li class="navbar-item">
+              <a class="navbar-link" href="#about">About</a>
+            </li>
+            <li class="navbar-item">
+              <a class="navbar-link" href="#skills">Skills</a>
+            </li>
+            <li class="navbar-item">
+              <a class="navbar-link" href="#education">Education</a>
+            </li>
+            <li class="navbar-item">
+              <a class="navbar-link" href="#project">Project</a>
+            </li>
+            <li class="navbar-item">
+              <a class="navbar-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
     </header>
 
     <main>
-        <article class="first" id="home">
+      <article class="first" id="home">
+        <section class="intro" style="font-family: outfit">
+          <p style="margin-top: 0.3rem; margin-bottom: 0.3rem; font-size: 2rem">
+            Hello, It's Me
+          </p>
+          <h1
+            style="font-size: 4rem; margin-top: 0.3rem; margin-bottom: 0.3rem"
+          >
+            Piyush
+          </h1>
+          <div style="font-size: 2rem">
+            I'm a student who is passionate in <span id="element"></span>
+          </div>
 
-            <section class="intro">
-                <p>Hello, It's Me</p>
-                <h1>Piyush</h1>
-                <div>I'm a student who is passionate in <span id="element"></span></div>
+          <section class="social">
+            <ul class="social-icons">
+              <li>
+                <a
+                  class="linkedin"
+                  aria-label="LinkedIn"
+                  href="https://www.linkedin.com/in/piyush-b1bb15317?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                  target="_blank"
+                  ><i class="fab fa-linkedin"></i
+                ></a>
+              </li>
+              <li>
+                <a
+                  class="github"
+                  aria-label="GitHub"
+                  href="https://github.com/PiyushY111"
+                  target="_blank"
+                  ><i class="fab fa-github"></i
+                ></a>
+              </li>
+            </ul>
+          </section>
+        </section>
 
-                <section class="social">
-                    <ul class="social-icons">
-                        <li><a class="linkedin" aria-label="LinkedIn" href="https://www.linkedin.com/in/piyush-b1bb15317?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
-                                target="_blank"><i class="fab fa-linkedin "></i></a></li>
-                        <li><a class="github" aria-label="GitHub" href="https://github.com/PiyushY111"
-                                target="_blank"><i class="fab fa-github"></i></a></li>
-                    </ul>
-                </section>
+        <section class="my-pic">
+          <img
+            src="Images/Piyush's Photo.jpg"
+            draggable="false"
+            (dragstart)="false;"
+            alt="Piyush's Photo"
+          />
+        </section>
+      </article>
 
-            </section>
+      <article class="second" id="about">
+        <div class="second-child" style="font-family: poppins">
+          <section>
+            <h2 class="section-title-01">About Me</h2>
+            <h2 class="second-title">About<span> Me</span></h2>
+          </section>
+          <section class="about-text" style="line-height: 1.9">
+            <p>
+              I'm on a journey to enhance my skills and strive for excellence. I
+              bring a dynamic and energetic approach to my work, fueled by a
+              deep motivation to tackle challenging issues. I see challenges as
+              opportunities for growth and embrace each task with enthusiasm.
+              Learning is a continuous process for me, and I'm always ready to
+              adapt to new situations.
+            </p>
+            <p>
+              With a forward-thinking mindset and a proactive approach, I am
+              eager to take on new challenges and make impactful contributions.
+              I thrive in environments that encourage innovation and creativity,
+              and I am committed to delivering exceptional results with every
+              project I undertake.
+            </p>
+            <p>
+              Thank you for considering my profile. I'm eager for the chance to
+              contribute and excel in any endeavor.
+            </p>
+            <p class="place" style="margin-top: 0.1rem; margin-bottom: 0rem">
+              <b></b> Rewari, Haryana
+            </p>
+            <p class="email" style="margin-top: 0rem; margin-bottom: 0.1rem">
+              <b></b> piyushydv914@gmail.com
+            </p>
+          </section>
+        </div>
+      </article>
 
-            <section class="my-pic">
-                <img src="Images/Piyush's Photo.jpg" draggable="false" (dragstart)="false;"
-                    alt="Piyush's Photo">
-            </section>
-        </article>
-
-
-        <article class="second" id="about">
-            <section>
-                <h2 class="section-title-01">About Me</h2>
-                <h2 class="second-title">About<span> Me</span></h2>
-            </section>
-            <section class="about-text">
-                <p>
-                    I'm on a journey to enhance my skills and strive for excellence.
-                    I bring a dynamic and energetic approach to my work, fueled by a deep
-                    motivation to tackle challenging issues.
-                    I see challenges as opportunities for growth and embrace each task with
-                    enthusiasm. Learning is a continuous process for me, and I'm always ready
-                    to adapt to new situations.
-                </p>
-                <p>
-                    With a forward-thinking mindset and a proactive approach,
-                    I am eager to take on new challenges and make impactful contributions.
-                    I thrive in environments that encourage innovation and creativity, and
-                    I am committed to delivering exceptional results with every project
-                    I undertake.
-                </p>
-                <p>
-                    Thank you for considering my profile. I'm eager for the chance to contribute
-                    and excel in any endeavor.
-                </p>
-                <p class="place"><b>PLACE :</b> Rewari ,Haryana</p>
-                <p class="email"><b>Email :</b> piyushydv914@gmail.com</p>
-            </section>
-
-        </article>
-
-
-        <article class="third" id="skills">
-            <section>
-                <h2 class="third-title-01">My Skills</h2>
-                <h2 class="third-title"><span>My</span> Skills</h2>
-            </section>
-            <section class="skill">
-                <ul class="skills-list">
-                    <li class="skills-item">
-                        <div class="title-wrapper">
-                            <h5 class="skill-title">HTML</h5>
-                            <data value="100">100%</data>
-                        </div>
-                        <div class="skill-progress-bg">
-                            <div class="skill-progress-fill" style="width: 100%;"></div>
-                        </div>
-                    </li>
-                    <li class="skills-item">
-                        <div class="title-wrapper">
-                            <h5 class="skill-title">CSS</h5>
-                            <data value="90">90%</data>
-                        </div>
-                        <div class="skill-progress-bg">
-                            <div class="skill-progress-fill" style="width: 90%;"></div>
-                        </div>
-                    </li>
-                    <li class="skills-item">
-                        <div class="title-wrapper">
-                            <h5 class="skill-title">Javascript</h5>
-                            <data value="60">60%</data>
-                        </div>
-                        <div class="skill-progress-bg">
-                            <div class="skill-progress-fill" style="width: 60%;"></div>
-                        </div>
-                    </li>
-                    <li class="skills-item">
-                        <div class="title-wrapper">
-                            <h5 class="skill-title">React</h5>
-                            <data value="20">30%</data>
-                        </div>
-                        <div class="skill-progress-bg">
-                            <div class="skill-progress-fill" style="width: 30%;"></div>
-                        </div>
-                    </li>
-                    <li class="skills-item">
-                        <div class="title-wrapper">
-                            <h5 class="skill-title">Python</h5>
-                            <data value="60">60%</data>
-                        </div>
-                        <div class="skill-progress-bg">
-                            <div class="skill-progress-fill" style="width: 70%;"></div>
-                        </div>
-                    </li>
-                    <li class="skills-item">
-                        <div class="title-wrapper">
-                            <h5 class="skill-title">Leadership</h5>
-                            <data value="90">90%</data>
-                        </div>
-                        <div class="skill-progress-bg">
-                            <div class="skill-progress-fill" style="width: 90%;"></div>
-                        </div>
-                    </li>
-                </ul>
-            </section>
-        </article>
-
-        <article class="fourth" id="education">
-            <section class="education">
-                <h2 class="fourth-title-01">My Education</h2>
-                <h2 class="fourth-title">My <span> Education</span></h2>
-                <div class="box-container">
-                    <div class="box">
-                        <div class="image">
-                            <img draggable="false" src="Images/College.jpg" alt="Newton School of Technology">
-                        </div>
-                        <div class="edu-content">
-                            <h3>B.Tech in Computer Science and Engineering</h3>
-                            <p>Specialization: Artificial Intelligence </p>
-                            <p>Newton school of Technology , Sonipat campus</p>
-                            <h4>2024-2028 | Pursuing</h4>
-
-                        </div>
-                    </div>
+      <article class="third" id="skills">
+        <div style="width: 50%">
+          <section>
+            <h2 class="third-title-01">My Skills</h2>
+            <h2 class="third-title"><span>My</span> Skills</h2>
+          </section>
+          <section class="skill">
+            <ul class="skills-list" style="font-family: outfit">
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="skill-title">HTML</h5>
+                  <data value="100">100%</data>
                 </div>
-            </section>
-        </article>
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 100%"></div>
+                </div>
+              </li>
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="skill-title">CSS</h5>
+                  <data value="90">90%</data>
+                </div>
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 90%"></div>
+                </div>
+              </li>
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="skill-title">Javascript</h5>
+                  <data value="60">60%</data>
+                </div>
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 60%"></div>
+                </div>
+              </li>
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="skill-title">React</h5>
+                  <data value="20">30%</data>
+                </div>
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 30%"></div>
+                </div>
+              </li>
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="skill-title">Python</h5>
+                  <data value="60">60%</data>
+                </div>
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 70%"></div>
+                </div>
+              </li>
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="skill-title">Leadership</h5>
+                  <data value="90">90%</data>
+                </div>
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 90%"></div>
+                </div>
+              </li>
+            </ul>
+          </section>
+        </div>
+        <div style="width: 50%; position: relative; height: 20rem">
+          <div class="html-logo">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+              viewBox="0 0 48 48"
+            >
+              <path fill="#E65100" d="M41,5H7l3,34l14,4l14-4L41,5L41,5z" />
+              <polygon fill="#FF6D00" points="24,8 24,39.9 35.2,36.7 37.7,8 " />
+              <path
+                fill="#FFFFFF"
+                d="M24,25v-4h8.6l-0.7,11.5L24,35.1v-4.2l4.1-1.4l0.3-4.5H24z M32.9,17l0.3-4H24v4H32.9z"
+              />
+              <path
+                fill="#EEEEEE"
+                d="M24,30.9v4.2l-7.9-2.6L15.7,27h4l0.2,2.5L24,30.9z M19.1,17H24v-4h-9.1l0.7,12H24v-4h-4.6L19.1,17z"
+              />
+            </svg>
+          </div>
+          <div class="css-logo">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 100 100"
+              width="170px"
+              height="170px"
+              baseProfile="basic"
+            >
+              <path
+                fill="#3070b7"
+                d="M83.105,15H16.895l5.842,66.211L50,89l27.263-7.789L83.105,15L83.105,15z"
+              />
+              <path
+                fill="#1f212b"
+                d="M50,90c-0.093,0-0.185-0.013-0.274-0.039l-27.263-7.79c-0.398-0.114-0.686-0.461-0.722-0.874	l-5.843-66.21c-0.024-0.279,0.069-0.556,0.259-0.763S16.614,14,16.895,14h66.211c0.28,0,0.548,0.118,0.737,0.325	s0.283,0.484,0.259,0.763l-5.843,66.21c-0.036,0.413-0.323,0.76-0.722,0.874l-27.263,7.79C50.185,89.987,50.093,90,50,90z M23.673,80.438L50,87.96l26.327-7.522L82.014,16H17.986L23.673,80.438z"
+              />
+              <polygon
+                fill="#09ace3"
+                points="50,20.5 50,82.963 71.811,76.732 76.709,20.5"
+              />
+              <polygon
+                fill="#fefdef"
+                points="67.721,30.579 50,30.579 49,34 50,38.368 59.542,38.368 58.958,46.158 50,46.158 49,50 50,53.947 58.568,53.947 57.984,62.711 50,65.437 49,70 50,73.616 65.384,68.553 66.747,46.158 66.747,46.158"
+              />
+              <path
+                fill="#eeecd9"
+                d="M50,30.579v7.789H32.668l-0.584-7.789H50z M41.042,46.158l0.389,7.789H50v-7.789H41.042z M41.821,57.842h-7.789l0.584,10.711L50,73.616v-8.179l-7.984-2.726L41.821,57.842z"
+              />
+              <path
+                fill="#1f212b"
+                d="M50,31.079c-0.276,0-0.5-0.224-0.5-0.5V20.5c0-0.276,0.224-0.5,0.5-0.5h3.5	c0.276,0,0.5,0.224,0.5,0.5S53.776,21,53.5,21h-3v9.579C50.5,30.855,50.276,31.079,50,31.079z"
+              />
+              <path
+                fill="#1f212b"
+                d="M60.5,21h-4c-0.276,0-0.5-0.224-0.5-0.5s0.224-0.5,0.5-0.5h4c0.276,0,0.5,0.224,0.5,0.5	S60.776,21,60.5,21z"
+              />
+              <path
+                fill="#1f212b"
+                d="M50,83.463c-0.107,0-0.213-0.035-0.301-0.101c-0.126-0.095-0.199-0.243-0.199-0.399V76.5	c0-0.276,0.224-0.5,0.5-0.5s0.5,0.224,0.5,0.5v5.8l20.843-5.955L76.163,21H63.5c-0.276,0-0.5-0.224-0.5-0.5s0.224-0.5,0.5-0.5	h13.209c0.141,0,0.273,0.059,0.368,0.162s0.143,0.242,0.13,0.381l-4.898,56.231c-0.018,0.207-0.161,0.38-0.36,0.438l-21.811,6.232	C50.092,83.457,50.046,83.463,50,83.463z"
+              />
+              <path
+                fill="#1f212b"
+                d="M50,65.937c-0.276,0-0.5-0.224-0.5-0.5v-8.49c0-0.276,0.224-0.5,0.5-0.5s0.5,0.224,0.5,0.5v8.49	C50.5,65.713,50.276,65.937,50,65.937z"
+              />
+              <path
+                fill="#1f212b"
+                d="M50,46.658c-0.276,0-0.5-0.224-0.5-0.5v-4.789c0-0.276,0.224-0.5,0.5-0.5s0.5,0.224,0.5,0.5v4.789	C50.5,46.434,50.276,46.658,50,46.658z"
+              />
+              <path
+                fill="#1f212b"
+                d="M50,74.116c-0.053,0-0.105-0.008-0.156-0.025L34.46,69.028c-0.195-0.064-0.332-0.242-0.343-0.448	l-0.585-10.71c-0.008-0.137,0.042-0.271,0.136-0.371c0.095-0.1,0.226-0.156,0.363-0.156h7.79c0.269,0,0.489,0.212,0.5,0.48	l0.181,4.526L50,64.909l7.508-2.564l0.526-7.897H41.432c-0.267,0-0.486-0.209-0.499-0.475l-0.39-7.79	c-0.007-0.137,0.042-0.271,0.137-0.37s0.226-0.155,0.362-0.155h17.452l0.509-6.789H32.668c-0.262,0-0.479-0.202-0.499-0.462	l-0.584-7.79c-0.01-0.139,0.038-0.276,0.133-0.377c0.095-0.102,0.228-0.16,0.366-0.16h35.637c0.138,0,0.27,0.057,0.364,0.158	s0.144,0.236,0.135,0.374l-2.337,37.973c-0.013,0.205-0.148,0.381-0.343,0.445l-15.384,5.063C50.105,74.107,50.053,74.116,50,74.116	z M35.097,68.185L50,73.089l14.905-4.906l2.283-37.104H32.623l0.509,6.79h26.41c0.139,0,0.271,0.058,0.366,0.16	c0.095,0.102,0.143,0.238,0.133,0.377l-0.584,7.789c-0.02,0.261-0.237,0.462-0.499,0.462H41.567l0.34,6.79h16.661	c0.139,0,0.271,0.057,0.365,0.158s0.143,0.237,0.134,0.375l-0.584,8.763c-0.014,0.201-0.146,0.375-0.338,0.44l-7.984,2.727	c-0.104,0.036-0.219,0.036-0.322,0l-7.984-2.727c-0.196-0.067-0.33-0.247-0.339-0.453l-0.175-4.388H34.56L35.097,68.185z"
+              />
+            </svg>
+          </div>
+          <div class="js-logo">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 48 48"
+              width="160px"
+              height="160px"
+              baseProfile="basic"
+            >
+              <path fill="#f7df1e" d="M6,42V6h36v36H6z" />
+              <path
+                fill="#000001"
+                d="M29.538,32.947c0.692,1.124,1.444,2.201,3.037,2.201c1.338,0,2.04-0.665,2.04-1.585 c0-1.101-0.726-1.492-2.198-2.133l-0.807-0.344c-2.329-0.988-3.878-2.226-3.878-4.841c0-2.41,1.845-4.244,4.728-4.244 c2.053,0,3.528,0.711,4.592,2.573l-2.514,1.607c-0.553-0.988-1.151-1.377-2.078-1.377c-0.946,0-1.545,0.597-1.545,1.377 c0,0.964,0.6,1.354,1.985,1.951l0.807,0.344C36.452,29.645,38,30.839,38,33.523C38,36.415,35.716,38,32.65,38 c-2.999,0-4.702-1.505-5.65-3.368L29.538,32.947z M17.952,33.029c0.506,0.906,1.275,1.603,2.381,1.603 c1.058,0,1.667-0.418,1.667-2.043V22h3.333v11.101c0,3.367-1.953,4.899-4.805,4.899c-2.577,0-4.437-1.746-5.195-3.368 L17.952,33.029z"
+              />
+            </svg>
+          </div>
+          <div class="react-logo">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 80 80"
+              width="120px"
+              height="120px"
+            >
+              <path
+                fill="#8bb7f0"
+                d="M46.5,40c0,3.593-2.907,6.5-6.5,6.5s-6.5-2.907-6.5-6.5s2.907-6.5,6.5-6.5S46.5,36.407,46.5,40z"
+              />
+              <path
+                fill="#4e7ab5"
+                d="M40,47c-3.859,0-7-3.14-7-7s3.141-7,7-7s7,3.14,7,7S43.859,47,40,47z M40,34c-3.309,0-6,2.691-6,6 s2.691,6,6,6s6-2.691,6-6S43.309,34,40,34z"
+              />
+              <g>
+                <path
+                  fill="#8bb7f0"
+                  d="M24.474,75.503c-1.711,0-3.269-0.392-4.632-1.164c-2.28-1.293-3.856-3.521-4.686-6.62 c-0.965-3.607-0.85-8.398,0.332-13.878C5.956,50.562,0.5,45.531,0.5,40c0-5.532,5.455-10.562,14.987-13.84 c-1.182-5.481-1.298-10.272-0.333-13.879c0.83-3.1,2.406-5.328,4.685-6.62c1.362-0.772,2.921-1.164,4.632-1.164 c4.388,0,9.891,2.73,15.531,7.698c5.64-4.963,11.141-7.691,15.524-7.691c1.711,0,3.269,0.392,4.632,1.164 c2.277,1.291,3.854,3.515,4.684,6.611c0.966,3.606,0.85,8.398-0.333,13.88C74.043,29.437,79.5,34.468,79.5,40 s-5.457,10.563-14.991,13.842c1.182,5.481,1.298,10.272,0.332,13.878c-0.83,3.097-2.405,5.321-4.68,6.612 c-1.364,0.772-2.923,1.164-4.633,1.164c-4.386,0-9.889-2.728-15.527-7.689C34.361,72.774,28.859,75.503,24.474,75.503z M19.337,55.006c-0.991,4.717-1.102,8.747-0.316,11.679c0.542,2.026,1.481,3.431,2.794,4.175c0.753,0.427,1.648,0.644,2.659,0.644 c3.394,0,7.862-2.282,12.621-6.437c-2.385-2.402-4.713-5.121-6.928-8.091C26.336,56.56,22.696,55.898,19.337,55.006z M42.906,65.065c4.758,4.151,9.227,6.431,12.621,6.432c1.011,0,1.906-0.217,2.661-0.644c1.309-0.742,2.246-2.144,2.787-4.167 c0.786-2.934,0.676-6.963-0.315-11.679c-3.362,0.892-7.003,1.554-10.833,1.97C47.613,59.947,45.288,62.665,42.906,65.065z M35.566,57.393c1.452,1.776,2.938,3.433,4.434,4.94c1.492-1.506,2.979-3.163,4.43-4.94C42.939,57.464,41.454,57.5,40,57.5 C38.545,57.5,37.059,57.464,35.566,57.393z M32.349,53.179C34.844,53.392,37.417,53.5,40,53.5c2.585,0,5.155-0.108,7.646-0.32 c1.486-2.084,2.903-4.268,4.214-6.495c1.268-2.155,2.461-4.404,3.547-6.686c-1.083-2.276-2.275-4.524-3.546-6.684 c-1.308-2.222-2.725-4.406-4.215-6.495C45.157,26.608,42.587,26.5,40,26.5c-2.588,0-5.159,0.108-7.647,0.321 c-1.49,2.086-2.909,4.27-4.219,6.495c-1.27,2.159-2.462,4.407-3.546,6.686c1.082,2.274,2.274,4.522,3.545,6.684 C29.437,48.901,30.854,51.084,32.349,53.179z M57.491,44.779c-0.706,1.346-1.438,2.666-2.185,3.934 c-0.753,1.282-1.554,2.568-2.386,3.836c2.374-0.366,4.645-0.835,6.771-1.4C59.101,49.1,58.362,46.963,57.491,44.779z M20.304,51.148c2.127,0.564,4.397,1.034,6.768,1.4c-0.837-1.276-1.638-2.563-2.386-3.835c-0.745-1.267-1.478-2.585-2.183-3.931 C21.636,46.956,20.898,49.091,20.304,51.148z M59.816,40c1.528,3.391,2.773,6.743,3.708,9.977C70.926,47.373,75.5,43.574,75.5,40 s-4.574-7.373-11.976-9.977C62.591,33.257,61.345,36.609,59.816,40z M16.472,30.025C9.073,32.628,4.5,36.427,4.5,40 c0,3.574,4.573,7.373,11.974,9.976c0.934-3.235,2.179-6.587,3.705-9.974C18.652,36.614,17.407,33.262,16.472,30.025z M20.303,28.852c0.594,2.054,1.332,4.19,2.2,6.368c0.704-1.342,1.436-2.661,2.184-3.932c0.752-1.279,1.553-2.565,2.388-3.836 C24.701,27.817,22.431,28.287,20.303,28.852z M52.922,27.451c0.837,1.277,1.638,2.563,2.386,3.837 c0.746,1.267,1.479,2.586,2.185,3.932c0.869-2.177,1.607-4.313,2.201-6.369C57.564,28.286,55.294,27.816,52.922,27.451z M24.471,8.497c-1.011,0-1.905,0.216-2.657,0.644c-1.312,0.744-2.252,2.149-2.795,4.175c-0.785,2.935-0.675,6.964,0.317,11.679 c3.36-0.892,7.002-1.555,10.834-1.971c2.217-2.971,4.545-5.688,6.927-8.088C32.337,10.779,27.866,8.497,24.471,8.497z M49.828,23.023c3.83,0.416,7.471,1.078,10.833,1.97c0.992-4.716,1.103-8.746,0.316-11.68c-0.542-2.022-1.48-3.424-2.79-4.166 c-0.754-0.427-1.649-0.644-2.661-0.644c-3.393,0-7.86,2.281-12.619,6.433C45.287,17.335,47.613,20.053,49.828,23.023z M40,22.5 c1.454,0,2.939,0.036,4.431,0.107c-1.45-1.774-2.936-3.43-4.429-4.938c-1.497,1.51-2.982,3.166-4.432,4.938 C37.061,22.536,38.546,22.5,40,22.5z"
+                />
+                <path
+                  fill="#4e7ab5"
+                  d="M24.471,4.997c4.494,0,9.996,2.91,15.532,7.867c5.535-4.953,11.034-7.86,15.524-7.86 c1.623,0,3.099,0.37,4.386,1.099c2.156,1.222,3.652,3.343,4.446,6.306c1.077,3.917,0.851,8.74-0.434,14.08 C73.147,29.57,79,34.431,79,40s-5.853,10.43-15.076,13.512c1.341,5.773,1.566,10.726,0.434,14.079 c-0.794,2.962-2.289,5.084-4.443,6.306C58.626,74.627,57.455,75,55.833,75c-0.001,0-0.416,0-0.417,0 c-4.492,0-9.882-2.91-15.416-7.861c-5.535,4.956-11.035,7.864-15.527,7.864c-1.623,0-3.099-0.37-4.386-1.099 c-2.158-1.225-3.655-3.349-4.448-6.314c-1.19-3.717-0.95-8.603,0.434-14.079C6.852,50.429,1,45.569,1,40 c0-5.568,5.852-10.429,15.072-13.511C15.385,23.43,14.946,20.59,14.931,18c-0.012-2.046,0.267-3.949,0.707-5.59 c0.794-2.966,2.29-5.09,4.448-6.314C21.372,5.366,22.848,4.997,24.471,4.997 M18.958,25.614c3.477-0.955,7.338-1.677,11.483-2.117 c2.382-3.21,4.875-6.096,7.386-8.584c-4.872-4.346-9.616-6.917-13.356-6.917c-1.099,0-2.075,0.238-2.904,0.709 c-1.433,0.813-2.452,2.32-3.031,4.481C17.678,16.388,17.873,20.716,18.958,25.614 M61.039,25.613 c1.085-4.898,1.28-9.227,0.422-12.429c-0.578-2.157-1.597-3.661-3.027-4.472c-0.83-0.471-1.809-0.709-2.907-0.709 c-3.737,0-8.478,2.568-13.349,6.91c2.51,2.488,5,5.374,7.38,8.583C53.701,23.936,57.562,24.658,61.039,25.613 M34.477,23.166 c1.802-0.107,3.609-0.2,5.488-0.2c1.879,0,3.755,0.094,5.557,0.2c-1.808-2.279-3.664-4.361-5.521-6.204 C38.144,18.805,36.287,20.887,34.477,23.166 M40,54c2.761,0,5.404-0.121,7.918-0.342c1.519-2.117,2.988-4.365,4.372-6.719 c1.353-2.299,2.577-4.626,3.67-6.939c-1.093-2.313-2.317-4.639-3.669-6.937c-1.385-2.355-2.853-4.602-4.373-6.719 C45.405,26.121,42.762,26,40,26s-5.406,0.121-7.92,0.343c-1.521,2.117-2.991,4.365-4.376,6.719 c-1.352,2.299-2.576,4.626-3.669,6.939c1.093,2.313,2.316,4.639,3.668,6.937c1.385,2.354,2.854,4.602,4.374,6.719 C34.592,53.879,37.237,54,40,54 M57.546,36.413c1.125-2.709,2.056-5.369,2.766-7.913c-2.553-0.702-5.373-1.282-8.428-1.707 c1.028,1.527,2.029,3.11,2.992,4.748C55.83,33.16,56.717,34.788,57.546,36.413 M22.449,36.414c0.828-1.625,1.716-3.253,2.668-4.873 c0.964-1.638,1.966-3.22,2.995-4.747c-3.055,0.424-5.875,1.005-8.428,1.707C20.394,31.045,21.325,33.704,22.449,36.414 M63.188,50.622C71.264,47.886,76,43.866,76,40s-4.736-7.886-12.812-10.622c-0.953,3.405-2.269,6.983-3.92,10.621 C60.919,43.638,62.235,47.216,63.188,50.622 M16.81,50.621c0.952-3.404,2.267-6.982,3.918-10.619 c-1.651-3.638-2.967-7.217-3.919-10.622C8.734,32.116,4,36.135,4,40C4,43.866,8.735,47.885,16.81,50.621 M51.884,53.207 c3.055-0.424,5.875-1.004,8.428-1.707c-0.711-2.544-1.642-5.204-2.766-7.914c-0.829,1.625-1.717,3.253-2.67,4.873 C53.913,50.097,52.912,51.68,51.884,53.207 M28.109,53.206c-1.028-1.527-2.029-3.109-2.993-4.746 c-0.952-1.619-1.839-3.246-2.667-4.87c-1.124,2.708-2.054,5.367-2.764,7.91C22.237,52.201,25.056,52.781,28.109,53.206 M24.474,72.003c3.739,0,8.481-2.57,13.352-6.914c-2.513-2.489-5.005-5.376-7.388-8.587c-4.143-0.439-8.002-1.161-11.478-2.116 c-1.084,4.898-1.279,9.226-0.422,12.428c0.578,2.16,1.598,3.667,3.03,4.48C22.396,71.765,23.375,72.003,24.474,72.003 M55.527,71.997L55.527,71.997c1.099,0,2.076-0.238,2.907-0.709c1.43-0.811,2.447-2.315,3.024-4.473 c0.858-3.203,0.663-7.531-0.421-12.428c-3.477,0.955-7.337,1.677-11.481,2.116c-2.38,3.21-4.871,6.096-7.381,8.585 C47.046,69.428,51.788,71.996,55.527,71.997 M40,63.04c1.857-1.844,3.713-3.927,5.522-6.206c-1.801,0.107-3.559,0.333-5.439,0.333 c-1.881,0-3.807-0.226-5.609-0.333C36.284,59.114,38.142,61.197,40,63.04 M24.116,4.072c-1.799,0-3.085,0.338-4.523,1.153 c-2.399,1.361-4.055,3.691-4.921,6.926c-0.96,3.587-0.877,8.302,0.236,13.681C5.419,29.189,0,34.325,0,40 c0,5.676,5.42,10.811,14.909,14.168c-1.113,5.379-1.196,10.094-0.235,13.681c0.865,3.233,2.52,5.563,4.921,6.926 c1.44,0.816,3.17,1.163,4.968,1.163c4.487,0,9.753-2.535,15.438-7.466c5.684,4.926,11.039,7.524,15.525,7.525 c1.799,0,3.441-0.413,4.881-1.229c2.397-1.359,4.051-3.686,4.916-6.917c0.961-3.588,0.878-8.303-0.235-13.681 C74.579,50.812,80,45.676,80,40s-5.42-10.812-14.911-14.169c1.114-5.38,1.196-10.095,0.235-13.682 c-0.866-3.231-2.521-5.558-4.919-6.917c-1.439-0.815-3.081-1.229-4.879-1.229c-4.485,0-9.839,2.599-15.524,7.527 c-5.686-4.932-11.066-7.461-15.554-7.461L24.116,4.072z M19.72,24.377c-0.462-2.324-0.772-4.502-0.789-6.412 c-0.015-1.72,0.221-3.217,0.57-4.521c0.507-1.892,1.368-3.194,2.559-3.87c0.676-0.384,1.5-0.644,2.423-0.644 c3.181,0,7.367,2.178,11.883,6.034c-2.221,2.273-4.392,4.819-6.466,7.585C26.315,22.949,22.897,23.562,19.72,24.377L19.72,24.377z M43.638,14.966c4.515-3.853,8.711-5.963,11.888-5.963c0.924,0,1.737,0.195,2.414,0.579c1.189,0.674,2.049,1.973,2.555,3.861 c0.874,2.818,0.761,6.564-0.218,10.933c-3.177-0.814-6.594-1.428-10.178-1.826C48.026,19.785,45.857,17.239,43.638,14.966 L43.638,14.966z M36.673,22.06c1.096-1.3,2.209-2.53,3.328-3.678c1.119,1.148,2.231,2.378,3.326,3.678 C42.208,22.02,41.095,22,40,22S37.793,22.02,36.673,22.06L36.673,22.06z M32.625,27.3c2.405-0.199,4.883-0.341,7.375-0.341 c2.491,0,4.969,0.142,7.373,0.341c1.432,2.019,2.796,4.126,4.056,6.269c1.222,2.078,2.373,4.239,3.423,6.43 c-1.051,2.192-2.202,4.354-3.424,6.432c-1.261,2.144-2.624,4.25-4.056,6.269c-2.403,0.199-4.881,0.466-7.372,0.466 c-2.493,0-4.972-0.268-7.378-0.467c-1.433-2.018-2.797-4.125-4.058-6.269c-1.222-2.077-2.372-4.238-3.422-6.43 c1.05-2.192,2.201-4.354,3.423-6.432C29.827,31.425,31.192,29.318,32.625,27.3L32.625,27.3z M57.422,34.024 c-0.549-1.018-1.112-2.018-1.683-2.99c-0.57-0.969-1.167-1.942-1.785-2.909c1.774,0.302,3.485,0.663,5.114,1.08 C58.601,30.771,58.05,32.383,57.422,34.024L57.422,34.024z M20.928,29.205c1.629-0.417,3.34-0.778,5.114-1.08 c-0.619,0.967-1.216,1.94-1.786,2.908c-0.571,0.972-1.134,1.972-1.683,2.99C21.945,32.384,21.395,30.772,20.928,29.205 L20.928,29.205z M60.365,39.999c1.415-3.162,2.587-6.292,3.49-9.326C70.758,33.192,75,36.721,75,40s-4.242,6.808-11.145,9.327 C62.951,46.292,61.78,43.161,60.365,39.999L60.365,39.999z M16.142,49.326C9.241,46.807,5,43.278,5,40s4.241-6.807,11.141-9.326 c0.903,3.035,2.074,6.165,3.489,9.327C18.216,43.162,17.045,46.292,16.142,49.326L16.142,49.326z M53.953,51.876 c0.618-0.968,1.216-1.941,1.785-2.909c0.572-0.972,1.135-1.973,1.684-2.991c0.628,1.641,1.178,3.254,1.646,4.821 C57.438,51.212,55.727,51.574,53.953,51.876L53.953,51.876z M20.929,50.795c0.467-1.566,1.017-3.177,1.644-4.816 c0.548,1.017,1.111,2.017,1.682,2.988c0.569,0.968,1.166,1.94,1.785,2.908C24.267,51.572,22.557,51.211,20.929,50.795 L20.929,50.795z M24.474,71.003c-0.924,0-1.736-0.195-2.413-0.579c-1.19-0.676-2.051-1.977-2.557-3.869 c-0.831-2.845-0.737-6.592,0.218-10.933c3.176,0.814,6.592,1.428,10.175,1.826c2.075,2.766,4.246,5.313,6.468,7.588 C31.85,68.893,27.653,71.004,24.474,71.003L24.474,71.003L24.474,71.003z M50.098,57.45c3.584-0.399,7.001-1.012,10.178-1.826 c1.105,4.74,1.192,8.518,0.217,10.932c-0.505,1.889-1.364,3.188-2.552,3.861c-0.678,0.384-1.49,0.579-2.413,0.579v1l-0.001-1 c-3.18,0-7.377-2.11-11.891-5.961C45.856,62.762,48.025,60.216,50.098,57.45L50.098,57.45z M40,61.62 c-1.12-1.148-2.234-2.379-3.33-3.68C37.79,57.98,38.904,58,40,58c1.095,0,2.208-0.02,3.327-0.06 C42.232,59.241,41.119,60.472,40,61.62L40,61.62z"
+                />
+              </g>
+            </svg>
+          </div>
+          <div class="python-logo">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+              viewBox="0 0 48 48"
+              width="120px"
+              height="120px"
+            >
+              <path
+                fill="#0277BD"
+                d="M24.047,5c-1.555,0.005-2.633,0.142-3.936,0.367c-3.848,0.67-4.549,2.077-4.549,4.67V14h9v2H15.22h-4.35c-2.636,0-4.943,1.242-5.674,4.219c-0.826,3.417-0.863,5.557,0,9.125C5.851,32.005,7.294,34,9.931,34h3.632v-5.104c0-2.966,2.686-5.896,5.764-5.896h7.236c2.523,0,5-1.862,5-4.377v-8.586c0-2.439-1.759-4.263-4.218-4.672C27.406,5.359,25.589,4.994,24.047,5z M19.063,9c0.821,0,1.5,0.677,1.5,1.502c0,0.833-0.679,1.498-1.5,1.498c-0.837,0-1.5-0.664-1.5-1.498C17.563,9.68,18.226,9,19.063,9z"
+              />
+              <path
+                fill="#FFC107"
+                d="M23.078,43c1.555-0.005,2.633-0.142,3.936-0.367c3.848-0.67,4.549-2.077,4.549-4.67V34h-9v-2h9.343h4.35c2.636,0,4.943-1.242,5.674-4.219c0.826-3.417,0.863-5.557,0-9.125C41.274,15.995,39.831,14,37.194,14h-3.632v5.104c0,2.966-2.686,5.896-5.764,5.896h-7.236c-2.523,0-5,1.862-5,4.377v8.586c0,2.439,1.759,4.263,4.218,4.672C19.719,42.641,21.536,43.006,23.078,43z M28.063,39c-0.821,0-1.5-0.677-1.5-1.502c0-0.833,0.679-1.498,1.5-1.498c0.837,0,1.5,0.664,1.5,1.498C29.563,38.32,28.899,39,28.063,39z"
+              />
+            </svg>
+          </div>
+          <div class="leader-logo">
+            <svg
+              version="1.1"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 100 100"
+              width="120px"
+              height="120px"
+            >
+              <path
+                d="M0 0 C3.57270399 1.86955195 6.23306348 4.08973118 9 7 C9.57234375 7.46792969 10.1446875 7.93585937 10.734375 8.41796875 C12 10 12 10 12.46484375 12.4765625 C11.83009465 15.92234334 10.40490586 16.41502591 7.5625 18.375 C2.75020378 22.75735753 2.34479489 26.64390302 2.00952148 32.84814453 C1.90374202 37.56913568 1.87763358 42.27923242 2 47 C4.64 47.33 7.28 47.66 10 48 C10 57.24 10 66.48 10 76 C-1.22 76 -12.44 76 -24 76 C-24 66.76 -24 57.52 -24 48 C-21.36 47.67 -18.72 47.34 -16 47 C-15.1111823 33.28615587 -15.1111823 33.28615587 -19.0703125 20.64453125 C-21.47479865 18.35260367 -21.47479865 18.35260367 -24.06640625 16.6484375 C-26 15 -26 15 -26.5625 12.62109375 C-25.51843882 7.75605869 -22.06012123 5.22415933 -18.41015625 2.078125 C-12.41798477 -1.57346174 -6.73142192 -1.53054406 0 0 Z M-8 36 C-8.33 39.96 -8.66 43.92 -9 48 C-7.68 48 -6.36 48 -5 48 C-5.33 44.04 -5.66 40.08 -6 36 C-6.66 36 -7.32 36 -8 36 Z "
+                fill="#2196F2"
+                transform="translate(57,20)"
+              />
+              <path
+                d="M0 0 C3.18843218 0.25171833 4.59734209 0.56957258 6.8125 2.9375 C8 5 8 5 8 7 C8.84433594 6.5153125 9.68867187 6.030625 10.55859375 5.53125 C16.24262963 3.00214437 21.89499745 3.22394035 28 4 C32.56494649 6.95378891 34.45073386 10.83577955 36 16 C36.21291586 20.80338175 35.61436086 24.0451213 32.984375 28.1328125 C30.26998188 32.68598806 30.36880569 37.18736942 30.3125 42.375 C30.27062005 44.1745689 30.22524405 45.97406105 30.17578125 47.7734375 C30.16458252 48.56153809 30.15338379 49.34963867 30.1418457 50.16162109 C30 52 30 52 29 53 C26.5 53.125 26.5 53.125 24 53 C22.06729418 51.06729418 22.37336945 47.61358612 22 45 C21.505 44.505 21.505 44.505 21 44 C20.34 46.97 19.68 49.94 19 53 C17.33388095 53.042721 15.66617115 53.04063832 14 53 C13 52 13 52 12.88647461 48.39819336 C12.88663375 46.79540144 12.89232937 45.1926044 12.90234375 43.58984375 C12.9037587 42.74780899 12.90517365 41.90577423 12.90663147 41.03822327 C12.91224737 38.33794665 12.92480252 35.63775172 12.9375 32.9375 C12.94251295 31.11132932 12.94707621 29.28515734 12.95117188 27.45898438 C12.96222196 22.97262458 12.97949721 18.48632616 13 14 C11.72842041 14.03246826 10.45684082 14.06493652 9.14672852 14.09838867 C6.10415639 14.17607711 5.26584076 14.17825928 2.65234375 12.42578125 C2.08644531 11.72839844 1.52054687 11.03101563 0.9375 10.3125 C0.34839844 9.62800781 -0.24070313 8.94351563 -0.84765625 8.23828125 C-2 6 -2 6 -1.74609375 3.29296875 C-1 1 -1 1 0 0 Z "
+                fill="#5F7C8A"
+                transform="translate(64,43)"
+              />
+              <path
+                d="M0 0 C0.598125 0.226875 1.19625 0.45375 1.8125 0.6875 C2.7283337 3.67573454 3.1199111 5.09039301 1.66015625 7.92578125 C1.07105469 8.61027344 0.48195312 9.29476562 -0.125 10 C-0.69089844 10.69738281 -1.25679687 11.39476562 -1.83984375 12.11328125 C-5.30269064 14.43529006 -8.05667315 13.79297572 -12.1875 13.6875 C-12.17964478 15.40634399 -12.17964478 15.40634399 -12.17163086 17.15991211 C-12.15358283 21.39590682 -12.14206872 25.63189812 -12.13256836 29.86791992 C-12.12752769 31.70418875 -12.12069523 33.54045354 -12.11206055 35.37670898 C-12.09998328 38.01026401 -12.09426919 40.64376616 -12.08984375 43.27734375 C-12.08468246 44.10338608 -12.07952118 44.92942841 -12.07420349 45.78050232 C-12.07400795 47.74986368 -12.12545848 49.71911614 -12.1875 51.6875 C-13.1875 52.6875 -13.1875 52.6875 -15.75 52.75 C-16.554375 52.729375 -17.35875 52.70875 -18.1875 52.6875 C-18.8475 49.7175 -19.5075 46.7475 -20.1875 43.6875 C-21.57083333 44.87083333 -21.57083333 44.87083333 -21.6875 48.1875 C-22.1875 51.6875 -22.1875 51.6875 -23.1875 52.6875 C-25.6875 52.8125 -25.6875 52.8125 -28.1875 52.6875 C-29.72612807 51.14887193 -29.31467 49.70687326 -29.328125 47.56640625 C-29.4637851 35.03771923 -29.4637851 35.03771923 -34.08984375 23.5703125 C-35.77927922 20.67241963 -35.86973554 18.96223058 -35.1875 15.6875 C-31.44639047 6.52676031 -31.44639047 6.52676031 -27.1875 3.6875 C-24.04296875 3.38671875 -24.04296875 3.38671875 -20.375 3.375 C-18.57095703 3.34986328 -18.57095703 3.34986328 -16.73046875 3.32421875 C-12.91677617 3.71525889 -10.48031408 4.77635676 -7.1875 6.6875 C-6.919375 6.089375 -6.65125 5.49125 -6.375 4.875 C-3.46022727 -0.49431818 -3.46022727 -0.49431818 0 0 Z "
+                fill="#5F7B8A"
+                transform="translate(35.1875,43.3125)"
+              />
+              <path
+                d="M0 0 C11.22 0 22.44 0 34 0 C34 9.24 34 18.48 34 28 C22.78 28 11.56 28 0 28 C0 18.76 0 9.52 0 0 Z "
+                fill="#E43834"
+                transform="translate(33,68)"
+              />
+              <path
+                d="M0 0 C2.4375 1.5625 2.4375 1.5625 4 4 C3.9375 7.625 3.9375 7.625 3 11 C-0.46998729 13.31332486 -1.92509248 13.33957563 -6 13 C-9 11 -9 11 -9.9375 7.625 C-10 4 -10 4 -8.4375 1.5625 C-5.30512879 -0.44543026 -3.65852292 -0.60975382 0 0 Z "
+                fill="#FFB64D"
+                transform="translate(53,4)"
+              />
+              <path
+                d="M0 0 C1.9375 1.0625 1.9375 1.0625 3 3 C3.36528977 6.4093712 3.6140629 8.88023824 1.9375 11.9375 C-1.11976176 13.6140629 -3.5906288 13.36528977 -7 13 C-8.9375 11.9375 -8.9375 11.9375 -10 10 C-10.36528977 6.5906288 -10.6140629 4.11976176 -8.9375 1.0625 C-5.88023824 -0.6140629 -3.4093712 -0.36528977 0 0 Z "
+                fill="#FFB64C"
+                transform="translate(89,31)"
+              />
+              <path
+                d="M0 0 C1.9375 1.0625 1.9375 1.0625 3 3 C3.36528977 6.4093712 3.6140629 8.88023824 1.9375 11.9375 C-1.11976176 13.6140629 -3.5906288 13.36528977 -7 13 C-8.9375 11.9375 -8.9375 11.9375 -10 10 C-10.36528977 6.5906288 -10.6140629 4.11976176 -8.9375 1.0625 C-5.88023824 -0.6140629 -3.4093712 -0.36528977 0 0 Z "
+                fill="#FFB74C"
+                transform="translate(18,31)"
+              />
+              <path
+                d="M0 0 C2.64 0 5.28 0 8 0 C7.34 1.98 6.68 3.96 6 6 C5.01 5.67 4.02 5.34 3 5 C2.01 5.495 2.01 5.495 1 6 C0.67 4.02 0.34 2.04 0 0 Z "
+                fill="#B0BCC4"
+                transform="translate(11,47)"
+              />
+              <path
+                d="M0 0 C2.97 0 5.94 0 9 0 C8.34 1.98 7.68 3.96 7 6 C6.34 5.67 5.68 5.34 5 5 C5 3.68 5 2.36 5 1 C4.34 1 3.68 1 3 1 C3 2.65 3 4.3 3 6 C0 2.25 0 2.25 0 0 Z "
+                fill="#B8C3CA"
+                transform="translate(81,47)"
+              />
+              <path
+                d="M0 0 C2.64 0 5.28 0 8 0 C7.34 1.98 6.68 3.96 6 6 C5.67 6 5.34 6 5 6 C5 4.35 5 2.7 5 1 C4.34 1 3.68 1 3 1 C3 2.65 3 4.3 3 6 C2.34 5.67 1.68 5.34 1 5 C0.375 2.4375 0.375 2.4375 0 0 Z "
+                fill="#B1D4F2"
+                transform="translate(46,20)"
+              />
+            </svg>
+          </div>
+        </div>
+      </article>
 
-        <article class="fifth" id="project">
-            <section>
-                <h2 class="fifth-title-01 ">Project Made</h2>
-                <h3 class="fifth-title"><span>PROJECT</span> Made</h3>
-            </section>
-            <section class="project-card">
-                <a href="https://github.com/PiyushY111/E-commerce" target="_blank" class="card">
-                    <div class="image-box">
-                        <img src="Images/E-commerce.jpg" alt="project">
-                    </div>
-                    <div class="before-content">
-                        <h3>E-Commerce </h3>
-                    </div>
-                    <div class="content">
-                        <h3>E-Commerce</h3>
-                        <p>I built a responsive e-commerce website using HTML, CSS, and JavaScript
-                             for the frontend. It includes dynamic product displays, interactive 
-                             UI elements, and a sleek design for an engaging shopping experience.</p>
-                    </div>
-                </a>
+      <article class="fourth" id="education">
+        <section class="education">
+          <h2 class="fourth-title-01">My Education</h2>
+          <h2 class="fourth-title">My <span> Education</span></h2>
+          <div class="box-container">
+            <div class="box">
+              <div class="image">
+                <img
+                  draggable="false"
+                  src="Images/College.jpg"
+                  alt="Newton School of Technology"
+                />
+              </div>
+              <div class="edu-content">
+                <h3>B.Tech in Computer Science and Engineering</h3>
+                <p>Specialization: Artificial Intelligence</p>
+                <p>Newton school of Technology , Sonipat campus</p>
+                <h4>2024-2028 | Pursuing</h4>
+              </div>
+            </div>
+          </div>
+        </section>
+      </article>
 
-                <a href="https://github.com/PiyushY111/Youtube_Clone" target="_blank" class="card">
-                    <div class="image-box">
-                        <img src="Images/Youtube-clone.png" alt="project">
-                    </div>
-                    <div class="before-content">
-                        <h3>Youtube-clone</h3>
-                    </div>
-                    <div class="content">
-                        <h3>Youtube-clone</h3>
-                        <p>Built a YouTube clone using HTML and CSS, featuring a responsive video grid, 
-                            navbar, sidebar, and a clean, user-friendly layout for an immersive viewing experience.</p>
-                    </div>
-                </a>
+      <article class="fifth" id="project">
+        <section>
+          <h2 class="fifth-title-01">Project Made</h2>
+          <h3 class="fifth-title"><span>PROJECT</span> Made</h3>
+        </section>
+        <section class="project-card">
+          <a
+            href="https://github.com/PiyushY111/E-commerce"
+            target="_blank"
+            class="card"
+          >
+            <div class="image-box">
+              <img src="Images/E-commerce.jpg" alt="project" />
+            </div>
+            <div class="before-content">
+              <h3>E-Commerce</h3>
+            </div>
+            <div class="content">
+              <h3>E-Commerce</h3>
+              <p>
+                I built a responsive e-commerce website using HTML, CSS, and
+                JavaScript for the frontend. It includes dynamic product
+                displays, interactive UI elements, and a sleek design for an
+                engaging shopping experience.
+              </p>
+            </div>
+          </a>
 
-                <a href="https://github.com/PiyushY111/Tic-Tac-Toe" target="_blank" class="card">
-                    <div class="image-box">
-                        <img src="Images/TicTacToe.png" alt="project">
-                    </div>
-                    <div class="before-content">
-                        <h3>Tic Tac Toe</h3>
-                    </div>
-                    <div class="content">
-                        <h3>Tic Tac Toe</h3>
-                        <p>Developed a Tic Tac Toe game using HTML, CSS, and
-                             JavaScript, featuring a responsive 3x3 grid, 
-                             turn-based gameplay, automatic win detection, and a 
-                             restart option for seamless user interaction.</p>
-                    </div>
-                </a>
+          <a
+            href="https://github.com/PiyushY111/Youtube_Clone"
+            target="_blank"
+            class="card"
+          >
+            <div class="image-box">
+              <img src="Images/Youtube-clone.png" alt="project" />
+            </div>
+            <div class="before-content">
+              <h3>Youtube-clone</h3>
+            </div>
+            <div class="content">
+              <h3>Youtube-clone</h3>
+              <p>
+                Built a YouTube clone using HTML and CSS, featuring a responsive
+                video grid, navbar, sidebar, and a clean, user-friendly layout
+                for an immersive viewing experience.
+              </p>
+            </div>
+          </a>
 
-                <a href="https://github.com/PiyushY111/Calculator" target="_blank" class="card">
-                    <div class="image-box">
-                        <img src="Images/Calculator.png" alt="project">
-                    </div>
-                    <div class="before-content">
-                        <h3>Calculator</h3>
-                    </div>
-                    <div class="content">
-                        <h3>Calculator</h3>
-                        <p>Developed a basic calculator using React, featuring a clean UI, 
-                            responsive design, and essential arithmetic operations for a smooth user experience.</p>
-                    </div>
-                </a>
+          <a
+            href="https://github.com/PiyushY111/Tic-Tac-Toe"
+            target="_blank"
+            class="card"
+          >
+            <div class="image-box">
+              <img src="Images/TicTacToe.png" alt="project" />
+            </div>
+            <div class="before-content">
+              <h3>Tic Tac Toe</h3>
+            </div>
+            <div class="content">
+              <h3>Tic Tac Toe</h3>
+              <p>
+                Developed a Tic Tac Toe game using HTML, CSS, and JavaScript,
+                featuring a responsive 3x3 grid, turn-based gameplay, automatic
+                win detection, and a restart option for seamless user
+                interaction.
+              </p>
+            </div>
+          </a>
 
-                <a href="https://github.com/PiyushY111/ToDoList" target="_blank" class="card">
-                    <div class="image-box">
-                        <img src="Images/ToDoList.png" alt="project">
-                    </div>
-                    <div class="before-content">
-                        <h3>To Do List</h3>
-                    </div>
-                    <div class="content">
-                        <h3>To Do List</h3>
-                        <p>Built a to-do list app using React, allowing users to add, remove, 
-                            and mark tasks as complete with a simple and responsive UI.</p>
-                    </div>
-                </a>
-            </section>
-        </article>
+          <a
+            href="https://github.com/PiyushY111/Calculator"
+            target="_blank"
+            class="card"
+          >
+            <div class="image-box">
+              <img src="Images/Calculator.png" alt="project" />
+            </div>
+            <div class="before-content">
+              <h3>Calculator</h3>
+            </div>
+            <div class="content">
+              <h3>Calculator</h3>
+              <p>
+                Developed a basic calculator using React, featuring a clean UI,
+                responsive design, and essential arithmetic operations for a
+                smooth user experience.
+              </p>
+            </div>
+          </a>
 
+          <a
+            href="https://github.com/PiyushY111/ToDoList"
+            target="_blank"
+            class="card"
+          >
+            <div class="image-box">
+              <img src="Images/ToDoList.png" alt="project" />
+            </div>
+            <div class="before-content">
+              <h3>To Do List</h3>
+            </div>
+            <div class="content">
+              <h3>To Do List</h3>
+              <p>
+                Built a to-do list app using React, allowing users to add,
+                remove, and mark tasks as complete with a simple and responsive
+                UI.
+              </p>
+            </div>
+          </a>
+        </section>
+      </article>
 
-                
-
-                <article class="seventh" id="contact">
-                    <section>
-                        <h2 class="fifth-title-01 ">Contact Me</h2>
-                        <h2 class="seventh-title"><span>Contact</span> Me</h2>
-                    </section>
-                    <section>
-                        <div class="contact">
-                            <form class="form" action="#" netlify>
-        
-                                <div class="input-wrapper">
-                                    <input type="text" name="fullname" class="form-input" placeholder="Full name" required>
-        
-                                    <input type="email" name="email" class="form-input" placeholder="Email address" required>
-                                </div>
-        
-                                <textarea name="message" class="form-input" placeholder="Your Message" required></textarea>
-        
-                                <button class="form-btn" type="submit">
-                                    Send Message
-                                </button>
-        
-                            </form>
-                        </div>
-                    </section>
     </main>
 
     <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
-    <script src="https://kit.fontawesome.com/c6fb6cedc5.js" crossorigin="anonymous"></script>
+    <script
+      src="https://kit.fontawesome.com/c6fb6cedc5.js"
+      crossorigin="anonymous"
+    ></script>
     <script src="script.js"></script>
-</body>
-
+  </body>
 </html>
